@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account - Gaming Hayate</title>
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,700;1,300;1,400&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;500;700&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/extra-style.css">
+</head>
+
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky-top header-l-r" id="loginHeader">
+        <!-- Header will be dynamically added here -->
+    </header>
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+    <!-- LogIn Form -->
+    <section class="login-register-form">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <a href="index.html" class="back-btn d-flex justify-content-center align-items-center flex-row mb-3">
+                <span class="circle-shape me-1"><i class="fa-solid fa-arrow-left-long"></i></span>
+                Back to Shop</a>
+            <h2 class="display-6 form-head">Log In</h2>
+        </div>
+        <div class="mt-3 px-3">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-12">
+                    <form class="form-style">
+                        <div class="form-container">
+                            <h5 class="m-0">Log In</h5>
+                        </div>
+                        <div class="form-container">
+                            <div class="row g-2 mb-3">
+                                <div class="col-md-6 col-12 px-2">
+                                    <label class="mb-2" for="email">E-mail:</label>
+                                    <input type="email" class="form-input d-block" placeholder="E-mail" id="email">
+                                </div>
+                                <div class="col-md-6 col-12 px-2">
+                                    <label class="mb-2" for="password">Password:</label>
+                                    <input type="password" class="form-input d-block" placeholder="Password"
+                                        id="password">
+                                </div>
+                            </div>
+                            <div class="px-2">
+                                <label class="me-1" for="remmberMe">Remember Me</label>
+                                <input type="checkbox" name="checkbox" id="remmberMe">
+                            </div>
+                        </div>
+                        <div class="form-container d-flex justify-content-center">
+                            <button type="submit" class="btn new-btn submit-btn" id="loginBtn">
+                                Login <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                            </button>
+                        </div>
+                        <div class="form-container d-flex justify-content-center align-items-center flex-column">
+                            <p class="">If you dont have account</p>
+                            <a href="register.html">
+                                <button type="button" class="btn new-btn register-btn">
+                                    Register <i class="fa-solid fa-arrow-right-long ms-2"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+    <!-- Footer -->
+    <footer class="container-fluid bg-black mt-5 footer" id="loginFooter">
+        <!-- Footer will be dynamically added here -->
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/shared-components.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
